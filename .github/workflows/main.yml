@@ -17,8 +17,3 @@ jobs:
 # como variables, o agregar las tuyas en repoConfig.variables.
 # ------------------------------------------------------------
 env:
-  target_github_repo: "test-automatiza-pr"
-  target_workflow_branch: "main"
-  test_type_selected: "smoke"
-  environment_name: "dev"
-  enable_automation_trigger: "yes"
