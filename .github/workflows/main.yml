@@ -13,11 +13,16 @@ jobs:
 # ------------------------------------------------------------
 # Bloque agregado automáticamente por el script de automatización.
 # Este contenido se añade al final del workflow existente.
-# Puedes usar avargassot, test-automatiza-pr, main, .github/workflows/main.yml
-# como variables, o agregar las tuyas en repoConfig.variables.
+#
+# Variables disponibles:
+#    - Repositorio de automatización
+#   main     - Rama base
+#   .github/workflows/main.yml   - Ruta del workflow
+#
+# + cualquier variable personalizada en repoConfig.variables
 # ------------------------------------------------------------
 env:
-  target_github_repo: "test-automatiza-pr"
+  target_automation_repo: ""
   target_workflow_branch: "main"
   test_type_selected: "@regresion"
   environment_name: "dev"
