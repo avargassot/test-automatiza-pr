@@ -9,3 +9,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+# ------------------------------------------------------------
+# Bloque agregado automáticamente por el script de automatización.
+# Este contenido se añade al final del workflow existente.
+#
+# Variables disponibles:
+#    - Repositorio de automatización
+#   main     - Rama base
+#   .github/workflows/main.yml   - Ruta del workflow
+#
+# + cualquier variable personalizada en repoConfig.variables
+# ------------------------------------------------------------
+env:
+  target_automation_repo: ""
+  target_workflow_branch: "main"
+  test_type_selected: "@regresion"
+  environment_name: "dev"
+  enable_automation_trigger: "yes"
